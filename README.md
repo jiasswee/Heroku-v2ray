@@ -162,3 +162,21 @@ addEventListener(
 )
 ```
 </details>
+
+### 客户端配置
+
+```
+  - name: "yourName"
+    type: vmess
+    server: yourName.workers.dev
+    port: 443
+    uuid: yourUuid
+    alterId: 64
+    cipher: auto
+    udp: true
+    tls: true
+    #skip-cert-verify: true
+    servername: yourName.workers.dev
+    network: ws
+    ws-path: /ray
+```

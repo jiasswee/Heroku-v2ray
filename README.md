@@ -171,7 +171,7 @@ addEventListener(
     server: yourName.workers.dev
     port: 443
     uuid: yourUuid
-    alterId: 64
+    alterId: 0
     cipher: auto
     udp: true
     tls: true
